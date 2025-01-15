@@ -17,3 +17,8 @@ TBD
 - RabbitMQ
 - Delta Lake
 
+## Experimento
+
+1. Suba o RabbitMQ através do comando `docker-compose up`, ele vai subir containers conforme a configuração do arquivo `docker-compose.yml`.
+2. Rode a aplicação para publicar mensagens `python publisher/capture.py`.
+3. Rode a aplicação para capturar mensagens `python consumer/process.py`.
